@@ -341,7 +341,7 @@ a:hover.icon_user{
 }
 .user_info{
     margin:8px auto 16px;
-    color:#FFC248;
+    color:#FF9600;
     font-size:0.9rem;
     vertical-align: middle;
 }
@@ -605,6 +605,30 @@ a:hover.icon_user{
     color:#E1E1E1;
     cursor:pointer;
     box-shadow: rgba(38,163,146,0.5) 0px 1px 5px;
+}
+.info_logout{
+    background: #000;
+    padding:4px 10px;
+    border-radius:3px;
+    font-weight: 400;
+    border:1px solid #ff9600;
+    margin:2px auto;
+    font-size:0.8rem;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    width: 85%;
+    color:#ff9600;
+    cursor:pointer;
+    box-shadow: rgba(220,100,0,0.5) 0px 1px 5px;
+    transition:all 0.2s ease;
+}
+.info_logout:hover{
+    background: rgba(255,108,0,0.8);
+    text-decoration: none;
+    border:1px solid #ff6c00;
+    color:#000;
+    cursor:pointer;
 }
 .info_link:hover{
     background: #F05623;
